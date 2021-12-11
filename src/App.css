@@ -1,0 +1,64 @@
+.Navbar{
+  height: 30px;
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.3em;
+  cursor: pointer;
+  color: rgb(35, 29, 29);
+}
+
+.Item{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  flex-wrap: wrap;
+
+}
+.item-image{
+  width: 200px;
+  height: 200px;
+}
+.user-input{
+  font-family: sans-serif;
+  font-size: 1.2em;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+}
+
+.item-name{
+  font-family: sans-serif;
+  font-size: 1.2em;
+}
+.packet-quant{
+  font-family: sans-serif;
+  font-size: 1.2em;
+}
+
+.order-btn{
+  padding: 5px 10px 5px 10px;
+  border: none;
+  background-color: brown;
+  border-radius: 10px;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.item-bill{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+.bill{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
